@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Open Sans:400,500,600,700');
+:root{
+	--color-negro:#000;
+	--color-texto:#212529;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: var(--color-texto);
+}
+header{
+    background-color: #eee;
+}
+
+header img{
+	width: 300px
+}
+
+.section{
+	padding:50px 0;
+	min-height:300px;
+}
+
+.header-area.sticky {
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);*/
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+}
+.header-area.sticky .navbar-light{
+	background-color: #eee !important;
+}
+
+
+
+a{
+	color: #888;
+	text-decoration: none;
+}
+
+h1,h2,h3,h4{
+	color: #303030;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header{
+	position: absolute;
+	background-color: #FFFFFF;
+	padding: 10px 0;
+	width: 100%;
+}
+
+#intro{
+	text-align: center;
+	background-image: url("../img/background.jpg");
+	background-size: cover;
+	background-position: top center;
+	color: #fff;
+}
+
+#intro h2{
+	font-size: 22px;
+	font-weight: 400;
+	color: #fff;
+}
+#intro h1{
+	font-size: 60px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	font-weight: 400;
+	color: #fff;
+}
+
+#intro p{
+	text-align: center;
+}
+
+#intro img{
+	width: 350px;
+}
+
+.overlay{
+	padding: 100px;
+}
+
+.titulo{
+	font-size: 40px;
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.subtitulo{
+	font-size: 22px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+
+#services .titulo{
+	text-align: left;
+	font-size: 32px;
+	margin-top: 60px;
+}
+
+.lista-secret{
+	margin: 30px 0;
+	padding-left: 15px;
+}
+.lista-secret li{
+	line-height: 2;
+}
+
+
+
+
+
+#services{
+	background-color: #f8f8f8;
+}
+
+#aservices .service-info{
+	background-color: #fff;
+	padding: 20px;
+}
+
+
+#imagen1{
+	width: 300px;
+}
+
+#imagen2{
+	width: 300px;
+}
+
+#imagen3{
+	width: 500px;
+}
+
+
+
+
+
+
+
+#contact .titulo{
+	text-align: left;
+	font-size: 35px;
+}
+#contact h2{
+	font-size: 22px;
+	text-align: center;
+}
+
+.list-contact i{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 100%;
+}
+.list-contact li{
+	margin-bottom: 20px;
+}
+
+.slick-slide{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+
+
+
+footer{
+	background-color:#323232;
+	color:#898989;
+	padding: 20px 0;
+	font-size: 14px;
+}
+footer li a{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #171717;
+	display: block;
+	text-align: center;
+	border-radius: 100%;
+	color: #898989;
+	font-size: 16px;
+}
+
